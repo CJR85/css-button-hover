@@ -6,3 +6,27 @@
   box-sizing: border-box;
   font-family: 'Poppins', sans-serif;
 }
+
+body {
+  display: flex;
+  min-height: 100vh;
+  justify-content: center;
+  align-items: center;
+  background-color: #0e1538;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.container a {
+  position: relative;
+  width: 160px;
+  height: 60px;
+  display: inline-block;
+  background-color: #fff;
+  margin: 20px;
+}
